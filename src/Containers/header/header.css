@@ -42,7 +42,7 @@
     font-size: 18px;
     padding: 0 1rem;
     outline: none;
-    border: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
 }
 .gpt3_header-content_input button {
     width: 100%;
