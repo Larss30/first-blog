@@ -38,7 +38,7 @@
     background-color: var(--color-footer);
     color: #fff;
     font-family: var(--font-family);
-    border: 2px solid var(--color-footer);
+    border: none;
     font-size: 18px;
     padding: 0 1rem;
     outline: none;
