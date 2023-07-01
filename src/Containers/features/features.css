@@ -26,12 +26,19 @@
 @media all and (max-width: 700px){
     .gpt3__feature > div {
         min-width: unset;
-        width: 100%;
-        
+        width: 100%; 
     }
     .gpt3__feature h2 {
-        max-width: unset;
-        
+        max-width: unset;   
     }
-    
+    .gpt3__feature .gpt3__features-container__feature > div {
+        width:50%;
+    }
+    .gpt3__feature .gpt3__features-container__feature h3{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .gpt3__features-container_feature-text {
+        font-size: 14px;
+    }
 }
