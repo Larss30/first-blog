@@ -44,3 +44,26 @@
     cursor: pointer;
     margin: 1rem 0;
 }
+@media all and (max-width: 800px) {
+    .gpt3_possibilities {
+        gap: 10px;
+    }
+    .gpt3_possibilities img {
+        height: auto;
+    }
+    .gpt3_possibilities p,  .gpt3_possibilities a{
+        font-size: 14px;
+    }
+    .gpt3_possibilities h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+@media all and (max-width: 600px) {
+    .gpt3_possibilities > div {
+        width: 100%;
+    }
+    .gpt3_possibilities {
+        flex-wrap: wrap;
+    }
+}
